@@ -3,19 +3,4 @@
   <groupId>au.edu.rmit.a4group97</groupId>
   <artifactId>Assignment4Team-basedGroup97</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-  <properties>
-        <maven.compiler.release>17</maven.compiler.release>
-    </properties>
-
-    <dependencies>
-
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>5.10.0</version>
-            <scope>test</scope>
-        </dependency>
-
-    </dependencies>
 </project>
