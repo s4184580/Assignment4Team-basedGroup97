@@ -7,6 +7,5 @@ public class BookIntegrationTest {
     @Test
     void shouldStoreValidBook() {
         //hello
-    }dd
-}ddddt
-ffffgggg
+    }
+}
