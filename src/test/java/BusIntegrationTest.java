@@ -1,8 +1,8 @@
 import static org.junit.jupiter.api.Assertions.*;
 
-import java.io.File;
-
 import org.junit.jupiter.api.Test;
+
+import java.io.File;
 
 public class BusIntegrationTest {
 

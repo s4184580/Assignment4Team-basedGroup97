@@ -1,9 +1,9 @@
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.Test;
+
 import java.io.File;
 import java.time.LocalDate;
-
-import org.junit.jupiter.api.Test;
 
 public class BusUnitTest {
     private static final LocalDate TEST_DATE = LocalDate.of(2026, 5, 25);
