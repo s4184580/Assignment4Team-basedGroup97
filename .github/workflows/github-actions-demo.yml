@@ -1,3 +1,6 @@
+# Code is take from Week 11 - Lecture - Part 4: Software Evolution and Maintenance Course Notes:
+# Canvas Link: https://rmit.instructure.com/courses/158444/pages/week-11-learning-materials-and-activities-lectures?module_item_id=8263040
+
 name: GitHub Actions Java test workflow # Workflow name
 run-name: Running tests on github actions
 on: [push] # Trigger the workflow on push events
@@ -25,9 +28,3 @@ jobs:
         # This step runs the command mvn test, which is a Maven command to run the tests in your project.
         # Maven is a build automation tool used primarily for Java projects.
         # The tests are defined in your project's source code and will be executed by Maven.
-
-  another-job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repository code
-        run: ls -la
