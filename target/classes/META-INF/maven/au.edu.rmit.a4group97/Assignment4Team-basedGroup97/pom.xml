@@ -22,4 +22,24 @@
         </dependency>
     </dependencies>
 
+<!-- 
+
+The below block of code is added as a result of the ChatGPT's review of our project Code.
+
+The GenAI Acknowledgement PDF contains the prompt used
+
+ChatGPT states that "Some environments may still run JUnit 5 tests, but GitHub Actions/Maven can be unreliable without it."
+
+"-->
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.2.5</version>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
