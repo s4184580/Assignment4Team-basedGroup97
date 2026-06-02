@@ -30,7 +30,7 @@ The GenAI Acknowledgement PDF contains the prompt used
 
 ChatGPT states that "Some environments may still run JUnit 5 tests, but GitHub Actions/Maven can be unreliable without it."
 
-"-->
+-->
 
     <build>
         <plugins>
