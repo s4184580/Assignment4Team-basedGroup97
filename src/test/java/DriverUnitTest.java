@@ -1,9 +1,53 @@
-import static org.junit.jupiter.api.Assertions.*;
+/*
 
+IMPORTANT NOTE: The code we have developed as a team is the result of extensive study of the Software Engineering Fundamentals (for IT)
+ISYS3413/ISYS1118/ISYS3475 Course Notes such as:
+Week 10 - Lecture - Part 2: Software Testing II: https://rmit.instructure.com/courses/158444/pages/week-10-learning-materials-and-activities-lectures?module_item_id=8263036
+Week 10 - Lectorial: https://rmit.instructure.com/courses/158444/pages/week-10-lectorial?module_item_id=8263037
+Week 11 - Lecture - Part 4: Software Evolution and Maintenance: https://rmit.instructure.com/courses/158444/pages/week-11-learning-materials-and-activities-lectures?module_item_id=8263040
+
+We have taken the guidance of the examples provided in each one of these course
+notes to guide us in writing the JUnit test code
+
+We also used the Tutorial/Practical 10 solution as guidance on Week 11 – Software Testing II
+Solution Code that was provided for the question; "Part B: Unit and Integration Testing for the Online Bookstore Platform (80 mins)"
+
+Canvas Link: https://rmit.instructure.com/courses/158444/pages/week-11-tutorial-slash-practical?module_item_id=8263042
+
+The solution source code was highly helpful for us in providing an example
+on how to approach the Assignment 4: Team-based, and also on how the code needs
+to be written for unit and integration tests and also the code required under src/main/java and src/test/java
+
+The solutions of Tutorial/Practical 9 on Week 10 – Software Testing I helped us write the Unit Test Cases.
+
+Canvas Link: https://rmit.instructure.com/courses/158444/pages/week-10-tutorial-slash-practical?module_item_id=8263038
+
+*/
+
+/*
+
+The first two import statements are based on the Week 10 - Lecture - Part 2: Software Testing II
+Course Notes of the subject Software Engineering Fundamentals (for IT) ISYS3413/ISYS1118/ISYS3475
+
+Canvas Link: https://rmit.instructure.com/courses/158444/pages/week-10-learning-materials-and-activities-lectures?module_item_id=8263036
+
+The notes clearly mention that we need these two import statements for JUnit.
+
+*/
+
+// Import all JUnit 5 assertion methods (assertTrue, assertFalse, assertEquals, etc.)
+import static org.junit.jupiter.api.Assertions.*;
+// Import the @Test annotation so JUnit 5 recognises each method as a test case
 import org.junit.jupiter.api.Test;
 
+// Import File to allow test methods to delete temporary TXT files after each test
 import java.io.File;
 
+/**
+ * Unit tests for Driver-related validation rules (D1–D5).
+ * Each condition has at least three test cases covering normal, invalid, and edge cases.
+ * Tests are isolated: any TXT files created during a test are deleted after the test.
+ */
 public class DriverUnitTest {
 
     // Shared validator instance used across all test methods in this class
