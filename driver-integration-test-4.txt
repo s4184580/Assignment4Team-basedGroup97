@@ -1,3 +1,0 @@
-driverID, name, experienceYears, licenseType, address, birthdate
-29ab#$xyAB, Alice Driver, 6, Heavy, 10|Swanston Street|Melbourne|VIC|Australia, 15-06-1985
-38cd@$uvCD, Bob Driver, 4, Medium, 20|Collins Street|Melbourne|VIC|Australia, 16-07-1986
