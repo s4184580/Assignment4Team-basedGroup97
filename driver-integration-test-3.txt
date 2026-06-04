@@ -1,2 +1,0 @@
-driverID, name, experienceYears, licenseType, address, birthdate
-29ab#$xyAB, Alice Driver, 10, Heavy, 20|Collins Street|Melbourne|VIC|Australia, 15-06-1985
