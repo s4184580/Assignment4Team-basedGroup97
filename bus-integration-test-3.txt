@@ -1,0 +1,2 @@
+busID, capacity, fuelLevel, fuelType
+12345678, 45, 75.0, Diesel
