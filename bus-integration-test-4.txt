@@ -1,0 +1,3 @@
+busID, capacity, fuelLevel, fuelType
+12345678, 45, 80.5, Diesel
+87654321, 35, 90.0, Hybrid
