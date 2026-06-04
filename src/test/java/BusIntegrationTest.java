@@ -175,7 +175,7 @@ public class BusIntegrationTest {
      * - A valid update (capacity decrease and fuel level change) is accepted (B2 allows decrease)
      * - The updated values are written to and correctly read back from the TXT file
      */
-
+    
     @Test
     void validCapacityDecreaseShouldBeSavedInTxtFile() {
         String fileName = "bus-integration-test-3.txt"; // Unique TXT file for this test
